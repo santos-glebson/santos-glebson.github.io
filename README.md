@@ -1,4 +1,4 @@
 # santos-glebson.github.io
 
-(teste)[http://www.google.com]
+[I'm an inline-style link](https://www.google.com)
 
