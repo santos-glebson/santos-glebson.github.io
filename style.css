@@ -1,0 +1,156 @@
+/* ---------------RESET----------------- */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: #333333;
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* ---------------MAIN----------------- */
+
+body {
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 15px;
+}
+
+main {
+    max-width: 800px;
+    margin: 15px auto;
+    text-align: center;
+
+}
+
+.foto-perfil {
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
+    margin: auto;
+    width: 90%;
+    max-width: 300px;
+    display: block;
+}
+
+main h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+address {
+    font-style: normal;
+}
+
+address div {
+    color: #C29466;
+    margin-bottom: 10px;
+}
+
+address a {
+    color:#C29466;
+}
+
+address i {
+    font-size: 1.5rem;
+}
+
+.separador {
+    margin: 40px auto;
+    border-bottom: 1px solid ;
+    width: 100px;
+    color: #A5948C;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 26px;
+}
+
+main p {
+    color: #A5948C;
+    margin-bottom: 20px;
+}
+
+main .listas {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+main ul {
+    margin: 0 10px;
+}
+
+main li {
+    text-align: left;
+    list-style-position: inside;
+    color: #A5948C;
+}
+
+
+.itens-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 150px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.itens-portfolio p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    display: inline;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.itens-portfolio p:hover {
+    padding: 18px 30px;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.port-item {
+    min-width: 300px;
+    background-color: rgb(202, 202, 202);
+    height: 150px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.sites {
+    background-image: url('imgs/sites.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    
+}
+
+.forms {
+    background-image: url('imgs/forms.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.jogos {
+    background-image: url('imgs/jogos.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+.apps {
+    background-image: url('imgs/apps.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
